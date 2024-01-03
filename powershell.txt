@@ -1,0 +1,9 @@
+POWERSHELL
+
+NET LOCALGROUP
+net localgroup - list of all local groups
+net localgroup <group_name> list users of local group with name "group_name"
+net localgroup <group_name> /add - local group adding with name "group_name"
+net localgroup <group_name> /del - local group deleting with name "group_name"
+net localgroup <group_name> <user_name> /add - user adding with name "user_name" to local group with name "group_name"
+net localgroup <group_name> <user_name> /del - user deleting with name "user_name" to local group with name "group_name"
