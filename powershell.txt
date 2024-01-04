@@ -8,6 +8,9 @@ Get-LocalUser <user_name> - get object of local user with name "user_name"
 Get-LocalUser -Name <user_name> - get object of local user with name "user_name"
 Get-LocalUser -SID <user_sid> - get object of local user with sid "user_sid"
 
+SELECT-OBJECT
+<object> | Select-Object <properties_list> - getting list of properties specified in "list_properties" of object "objects"
+
 GET-MEMBER
 Get-Member - getting list of object properties
 
