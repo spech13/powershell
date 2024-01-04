@@ -1,5 +1,11 @@
 POWERSHELL
 
+NET USER
+net user - list of all local users
+net user <user_name> - information about user with name "user_name"
+net user <user_name> /add - user adding with name "user_name"
+net user <user_name> /del - user deleting with name "user_name"
+
 NET LOCALGROUP
 net localgroup - list of all local groups
 net localgroup <group_name> list users of local group with name "group_name"
