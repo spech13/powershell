@@ -1,5 +1,8 @@
 POWERSHELL
 
+RENAME-LOCALUSER
+Rename-LocalUser -Name <current_name> -NewName <new_name> - user name changing from "current_name" to "new_name"
+
 NET USER
 net user - list of all local users
 net user <user_name> - information about user with name "user_name"
