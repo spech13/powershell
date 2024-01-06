@@ -1,5 +1,8 @@
 POWERSHELL
 
+SET-LOCALUSER
+Set-LocalUser -Name <user_name> -Description <description> - description changing of user named "user" to "description"
+
 REMOVE-ITEM
 Remove-Item <item> - remove item named "item"
 Remove-Item <item> -Force - remove item named "item", contained other items
