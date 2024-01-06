@@ -1,5 +1,9 @@
 POWERSHELL
 
+REMOVE-ITEM
+Remove-Item <item> - remove item named "item"
+Remove-Item <item> -Force - remove item named "item", contained other items
+
 RENAME-LOCALUSER
 Rename-LocalUser -Name <current_name> -NewName <new_name> - user name changing from "current_name" to "new_name"
 
