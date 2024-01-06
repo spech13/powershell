@@ -1,5 +1,8 @@
 POWERSHELL
 
+ENABLE-LOCALUSER
+Enable-LocalUser -Name <user_name> enable user account named "user_name"
+
 DISABLE-LOCALUSER
 Disable-LocalUser -Name <user_name> - disable user account named "user_name"
 
