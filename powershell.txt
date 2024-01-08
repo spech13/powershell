@@ -1,5 +1,9 @@
 POWERSHELL
 
+GET-DATE
+get-date - get current date
+get-date -format "dd/MM/yyyy HH:mm:ss" - get current date in format day/mounth/year hours:minutes/seconds
+
 ENABLE-LOCALUSER
 Enable-LocalUser -Name <user_name> enable user account named "user_name"
 
