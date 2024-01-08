@@ -1,8 +1,8 @@
 POWERSHELL
 
 GET-DATE
-get-date - get current date
-get-date -format "dd/MM/yyyy HH:mm:ss" - get current date in format day/mounth/year hours:minutes/seconds
+Get-Date - get current date
+Get-Date -format "dd/MM/yyyy HH:mm:ss" - get current date in format day/mounth/year hours:minutes/seconds
 
 ENABLE-LOCALUSER
 Enable-LocalUser -Name <user_name> enable user account named "user_name"
@@ -12,6 +12,7 @@ Disable-LocalUser -Name <user_name> - disable user account named "user_name"
 
 SET-LOCALUSER
 Set-LocalUser -Name <user_name> -Description <description> - description changing of user named "user_name" to "description"
+Set-LocalUser -Name <user_name> -AccountExpires <date> - setting account expiring date. For getting date view Get-Date cmdlet
 
 REMOVE-ITEM
 Remove-Item <item> - remove item named "item"
