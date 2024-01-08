@@ -1,5 +1,8 @@
 POWERSHELL
 
+READ-HOST
+read-host <message> -AsSecureString - creatting secure string with output of message "message"
+
 GET-DATE
 Get-Date - getting current date
 Get-Date -format "dd/MM/yyyy HH:mm:ss" - getting current date in format day/mounth/year hours:minutes/seconds
